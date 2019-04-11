@@ -14,7 +14,7 @@ However, structurization is overly conservative. It can be avoided when control 
 
 We propose a new approach to SPMD vectorization based on saying that a CFG is reconverging if for every divergent branch, one of the successors is a post-dominator. This property is weaker than structuredness, and we show that it can be achieved while preserving uniform branches and inserting fewer new basic blocks than structurization requires. It is also sufficient for code generation, because it guarantees that threads which "leave" a wave at divergent branches will be able to rejoin it later.
 
-##Resources:
+## Resources:
 
 [dot2ll](https://github.com/rAzoR8/dot2ll): Takes a .dot graph as input, transfomrs it to be reconverging, writes output graph to .dot and emits dummy .ll file with AMDGPU PS IR
 
