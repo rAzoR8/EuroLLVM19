@@ -14,8 +14,14 @@ We propose a new approach to SPMD vectorization based on saying that a CFG is re
 
 ##Resources:
 
-dot2ll: Takes a .dot graph as input, transfomrs it to be reconverging, writes output graph to .dot and emits dummy .ll file with AMDGPU PS IR
+[dot2ll](https://github.com/rAzoR8/dot2ll): Takes a .dot graph as input, transfomrs it to be reconverging, writes output graph to .dot and emits dummy .ll file with AMDGPU PS IR
 
-https://github.com/rAzoR8/dot2ll
+[LLVM](https://bitbucket.org/razor8/llvmtestbed/src/ReConv): Partial Lowering and CFG Transfrom implementation
 
-LLVM: https://bitbucket.org/razor8/llvmtestbed/src/ReConv
+[Thesis](https://github.com/rAzoR8/EuroLLVM19/raw/master/docs/Vectorizing%20Divergent%20Control-Flow%20for%20SIMD%20Applications%20-%20Fabian%20Wahlster.pdf): Vectorizing Divergent Control-Flow for SIMD Applications
+
+[Poster](https://github.com/rAzoR8/EuroLLVM19/blob/master/docs/poster.pdf): EuroLLVM 2019 Poster
+
+[Slides](https://github.com/rAzoR8/EuroLLVM19/blob/master/docs/slides_short.pdf): EuroLLVM 2019 Slides
+
+[Presentation](https://github.com/rAzoR8/EuroLLVM19/blob/master/docs/slides_long.pdf): More detailed slides
